@@ -62,3 +62,4 @@ INSERT INTO Enrolled values ("1901EC02","CS100",2020),("1901EC02","CS101",2020),
 INSERT INTO Enrolled values ("1901EC03","CS100",2020);
 SELECT * FROM Enrolled;
 -- Find the name of all the courses which start with “CS” code.
+SELECT ccode FROM course WHERE ccode like 'CS%'
